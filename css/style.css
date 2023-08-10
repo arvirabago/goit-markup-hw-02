@@ -1,3 +1,9 @@
+:root {
+  --navyblue: #2e2f42;
+  --white: #ffffff;
+  --iris: #4d5ae5;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -11,7 +17,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--navyblue);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -19,21 +25,22 @@ a {
   letter-spacing: 0.32px;
 }
 
-.navigation-bar > ul > li > a:hover,
+navigation-bar > ul > li > a:hover,
 a:focus {
-  background-color: #2e2f42;
-  color: white;
+  background-color: var(--iris);
+  color: var(--white);
 }
 
 .section-one {
-  background-color: #2e2f42;
+  background-color: var(--navyblue);
+  font-size: 16px;
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
 }
 
 .section-one > h1 {
-  color: #fff;
+  color: var(--white);
   text-align: center;
   font-size: 56px;
   font-style: normal;
@@ -49,15 +56,15 @@ a:focus {
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
-  background: #4d5ae5;
-  color: #fff;
+  background: var(--iris);
+  color: var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .section-one > button:hover,
 button:focus {
-  background-color: #2e2f42;
-  color: white;
+  background-color: var(--navyblue);
+  color: var(--white);
 }
 
 .section-two > h3 {
@@ -75,7 +82,7 @@ button:focus {
 
 .section-three > h2 {
   text-align: center;
-  color: #2e2f42;
+  color: var(--navyblue);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -85,7 +92,7 @@ button:focus {
 }
 
 .section-four > h2 {
-  color: #2e2f42;
+  color: var(--navyblue);
   text-align: center;
   font-size: 36px;
   font-style: normal;
@@ -96,7 +103,7 @@ button:focus {
 }
 
 .section-four > h3 {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -111,14 +118,14 @@ button:focus {
 }
 
 footer {
-  background-color: #2e2f42;
+  background-color: var(--navyblue);
   width: 1440px;
   height: 312px;
   flex-shrink: 0;
 }
 
 footer > p {
-  color: #f4f4fd;
+  color: var(--white);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
