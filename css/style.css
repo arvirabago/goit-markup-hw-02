@@ -1,13 +1,11 @@
-:root {
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   --navyblue: #2e2f42;
   --white: #ffffff;
   --iris: #4d5ae5;
   --cloud: #f4f4fd;
-}
-
-body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  color: var(--navyblue);
 }
 
 header a {
@@ -18,6 +16,19 @@ header a {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
+}
+
+.logo {
+  color: var(--iris);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.167;
+}
+
+.logo-span {
+  color: var(--navyblue);
 }
 
 .top-line {
@@ -36,13 +47,13 @@ address > ul {
 
 .navigation-bar > ul > li > a:hover,
 a:focus {
-  background-color: var(--iris);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--iris);
 }
 
 .section-one {
   background-color: var(--navyblue);
-  fon-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .section-one h1 {
@@ -72,6 +83,12 @@ button:focus {
   color: var(--white);
 }
 
+address a:hover,
+address a:focus {
+  background-color: var(--white);
+  color: var(--iris);
+}
+
 .section-two > .strategy {
   list-style-type: none;
 }
@@ -85,35 +102,6 @@ button:focus {
 }
 
 .section-two p {
-  font-family: "Roboto", sans-serif;
-  color: var(--navyblue);
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.section-three > .products {
-  list-style-type: none;
-}
-
-.section-three h2 {
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  color: var(--navyblue);
-  font-size: 36px;
-  font-style: normal;
-  line-height: 1;
-}
-
-.section-three h3 {
-  font-family: "Roboto", sans-serif;
-  color: var(--navyblue);
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 1.5;
-}
-
-.section-three p {
   font-family: "Roboto", sans-serif;
   color: var(--navyblue);
   font-size: 16px;
@@ -154,45 +142,48 @@ button:focus {
   line-height: 1.5;
 }
 
-#button-one {
-  font-family: "Roboto", sans-serif;
-  cursor: pointer;
-  background: var(--iris);
-  color: var(--white);
-  font-weight: 500;
-  font-style: normal;
-  line-height: 1.5;
-}
-
-#button-two,
-#button-three,
-#button-four,
-#button-five {
-  font-family: "Roboto", sans-serif;
-  cursor: pointer;
+.menu-section button {
+  border: 0px solid var(--cornflower);
   background: var(--cloud);
   color: var(--iris);
-  font-weight: 500;
-  font-style: normal;
-  line-height: 1.5;
 }
 
-#button-one:hover,
-#button-one:focus,
-#button-two:hover,
-#button-two:focus,
-#button-three:hover,
-#button-three:focus,
-#button-four:hover,
-#button-four:focus,
-#button-five:hover,
-#button-five:focus {
-  background-color: var(--navyblue);
+.menu-section button:hover,
+button:focus {
+  border: 0px solid var(--cornflower);
+  background: var(--iris);
   color: var(--white);
+}
+
+.menu-section ul {
+  list-style-type: none;
+}
+
+.menu-section h3 {
+  font-family: "Roboto", sans-serif;
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.menu-section p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 footer {
   background-color: var(--navyblue);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .logo-span {
+  color: var(--white);
 }
 
 footer p {
