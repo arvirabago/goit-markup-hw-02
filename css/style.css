@@ -14,9 +14,10 @@ header a {
   text-decoration: none;
   color: var(--navyblue);
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .top-line {
@@ -25,6 +26,12 @@ header a {
 
 address > ul {
   list-style-type: none;
+  color: var(--navyblue);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .navigation-bar > ul > li > a:hover,
@@ -35,27 +42,28 @@ a:focus {
 
 .section-one {
   background-color: var(--navyblue);
+  fon-family: "Roboto", sans-serif;
 }
 
 .section-one h1 {
   color: var(--white);
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 56px;
   font-style: normal;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 1;
 }
 
 .section-one > button {
   cursor: pointer;
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
   background: var(--iris);
   color: var(--white);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 button:hover,
@@ -66,51 +74,50 @@ button:focus {
 
 .section-two > .strategy {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 .section-two h3 {
-  text-align: left;
+  font-family: "Roboto", sans-serif;
+  color: var(--navyblue);
   font-size: 20px;
   font-style: normal;
-  line-height: 24px;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 .section-two p {
-  text-align: left;
+  font-family: "Roboto", sans-serif;
+  color: var(--navyblue);
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
 }
 
 .section-three > .products {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .section-three h2 {
+  font-family: "Roboto", sans-serif;
   text-align: center;
   color: var(--navyblue);
   font-size: 36px;
   font-style: normal;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
+  line-height: 1;
 }
 
 .section-three h3 {
+  font-family: "Roboto", sans-serif;
   color: var(--navyblue);
   font-size: 20px;
+  font-weight: 500;
   font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.5;
 }
 
 .section-three p {
+  font-family: "Roboto", sans-serif;
+  color: var(--navyblue);
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
 }
 
 .section-four {
@@ -118,53 +125,56 @@ button:focus {
 }
 .section-four > .team {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .section-four h2 {
+  font-family: "Roboto", sans-serif;
   color: var(--navyblue);
   text-align: center;
   font-size: 36px;
   font-style: normal;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
+  line-height: 1;
+  font-weight: 700;
 }
 
 .section-four h3 {
+  font-family: "Roboto", sans-serif;
   color: var(--navyblue);
   text-align: center;
   font-size: 20px;
   font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.5px;
+  font-weight: 500;
 }
 
 .section-four p {
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
 }
 
 #button-one {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
-  padding: 12px 24px;
   background: var(--iris);
   color: var(--white);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
 }
 
 #button-two,
 #button-three,
 #button-four,
 #button-five {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
-  padding: 12px 24px;
   background: var(--cloud);
   color: var(--iris);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
 }
 
 #button-one:hover,
@@ -186,9 +196,9 @@ footer {
 }
 
 footer p {
+  font-family: "Roboto", sans-serif;
   color: var(--white);
   font-size: 16px;
   font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
 }
